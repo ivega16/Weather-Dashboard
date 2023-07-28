@@ -22,7 +22,7 @@
                 aria-describedby="inputGroup-sizing-default">
             <button type="button" id="search-btn" class="btn btn-primary w-100  my-2">Search</button>
             <hr>
-            <ul class="list-group ">
+            <ul id="buttongroup-container"class="list-group ">
                 <button type="button" class="btn btn-secondary w-100 my-1">Atlanta</button>
                 <button type="button" class="btn btn-secondary w-100 my-1">Denver</button>
                 <button type="button" class="btn btn-secondary w-100 my-1">Seattle</button>
@@ -34,6 +34,8 @@
             </ul>
         </div>
         <!-- did col-sm-8 so that it could total to 11 when using the other div because of the margin. Margin is considered spacing.-->
+
+        <!-- solidified weather for city selected using today's date -->
         <div class="col-12 col-sm-8">
             <div class="row">
                 <div class="col-sm-12 border border-black my-2">
@@ -44,58 +46,59 @@
                 </div>
             </div>
 
+            <!-- 5 day forecast section -->
             <h3>5-Day Forecast:</h3>
 
-            <div class="row">
-                <div class=" col-sm-2 mb-3 mb-sm-0">
-                    <div class="card bg-dark text-light">
-                        <div class="card-body">
-                            <h5 class="card-title">7/25/2023</h5>
-                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
+            <div id="fiveday-forecast" class="row">
+                <div class="col-12 col-sm-2 mb-3 mb-sm-0 ">
+                    <div class=" card bg-dark bg-gradient text-light">
+                        <div class=" card-body">
+                            <h6 id="card-title1">7/25/2023</h6>
+                            <img id="icon1" class="img-fluid" src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
                             <p id="temp1">Temp: 76.6F</p>
                             <p id="wind1">8.43 MPH</p>
                             <p id="humidity1">44%</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="card bg-dark text-light">
+                <div class="col-12 col-sm-2 mb-3 mb-sm-0">
+                    <div class="card bg-dark bg-gradient text-light">
                         <div class="card-body">
-                            <h5 class="card-title">7/25/2023</h5>
-                            <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="">
+                            <h6 id="card-title2">7/25/2023</h6>
+                            <img id="icon2" class="img-fluid" src="https://openweathermap.org/img/wn/03d@2x.png" alt="">
                             <p id="temp2">Temp: 76.6F</p>
                             <p id="wind2">8.43 MPH</p>
                             <p id="humidity2">44%</p>
                         </div>
                     </div>
                 </div>
-                <div class=" col-sm-2">
-                    <div class="card bg-dark text-light">
+                <div class="col-12 col-sm-2 mb-3 mb-sm-0">
+                    <div class="card bg-dark bg-gradient text-light">
                         <div class="card-body">
-                            <h5 class="card-title">7/25/2023</h5>
-                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+                            <h6 id="card-title3">7/25/2023</h6>
+                            <img id="icon3" class="img-fluid" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
                             <p id="temp3">Temp: 76.6F</p>
                             <p id="wind3">8.43 MPH</p>
                             <p id="humidity3">44%</p>
                         </div>
                     </div>
                 </div>
-                <div class=" col-sm-2">
-                    <div class="card bg-dark text-light">
+                <div class="col-12 col-sm-2 mb-3 mb-sm-0">
+                    <div class="card bg-dark bg-gradient text-light">
                         <div class="card-body">
-                            <h5 class="card-title">7/25/2023</h5>
-                            <img src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+                            <h6 id="card-title4">7/25/2023</h6>
+                            <img id="icon4"class="img-fluid" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
                             <p id="temp4">Temp: 76.6F</p>
                             <p id="wind4">8.43 MPH</p>
                             <p id="humidity4">44%</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="card bg-dark text-light">
+                <div class="col-12 col-sm-2 mb-3 mb-sm-0">
+                    <div class="card bg-dark bg-gradient text-light">
                         <div class="card-body">
-                            <h5 class="card-title">7/25/2023</h5>
-                            <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
+                            <h6 id="card-title5">7/25/2023</h6>
+                            <img id="icon5" class="img-fluid" src="https://openweathermap.org/img/wn/01d@2x.png" alt="">
                             <p id="temp5">Temp: 76.6F</p>
                             <p id="wind5">8.43 MPH</p>
                             <p id="humidity5">44%</p>

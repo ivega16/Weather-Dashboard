@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-Here is the link to deployed page: [(https://ivega16.github.io/Password-Generator/)]
+Here is the link to deployed page: [https://ivega16.github.io/Weather-Dashboard/]
 
 ## Credits
 
