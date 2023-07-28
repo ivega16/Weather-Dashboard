@@ -24,6 +24,7 @@ function displayWeather(cityName) {
     })
     .then(function(currentData){
         console.log(currentData)
+        titleEl.innerHTML=currentData.name + dayjs()
     })
 
 
@@ -32,8 +33,13 @@ function displayWeather(cityName) {
     .then(function(response){
         return response.json()
     })
-    .then(function(currentData){
-        console.log(currentData)
+    .then(function(forecastData){
+        console.log(forecastData)
+        // grab every 12pm for each day for 5 days
+        var forecastListArr=forecastData.list
+        for(let i = 2; i <= forecastListArr.length; i=i+8) {
+            console.log(forecastListArr[i])
+        }
     })
 }
 
