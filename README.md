@@ -32,7 +32,8 @@ Isabella Vega - https://github.com/ivega16
 ## Features
 
 Website
-<img width="772" alt="image" src="https://github.com/ivega16/Password-Generator/assets/99403219/9606bdab-adda-4910-bd22-cd9543c8fadf">
+![image](https://github.com/ivega16/Weather-Dashboard/assets/99403219/86594724-70a0-4f93-8c55-af0f000be0f7)
+
 
 
 
